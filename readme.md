@@ -36,9 +36,11 @@ Ressalto de antemão que algumas questões se tornaram faltantas no sistema, com
 Abaixo, deixarei um exemplo de compração visual entre o protótipo apresentado para a solução e o sistema desenvolvido.
 
 Prótotipo:
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/347b5238-9286-4363-9c4d-683c25698cde)
+
 
 Sistema desenvolvido:
-![alt text](image2.png)
+![image](https://github.com/user-attachments/assets/167c778f-2076-4703-9c58-5a4947a52f6b)
+
 
 
