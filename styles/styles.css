@@ -1,0 +1,36 @@
+.panel__title {
+    color: #f7f7f7;
+    font-weight: 200rem;
+    font-size: 1.5rem;
+}
+
+.row {
+    margin-bottom: 0.55rem;
+}
+
+.panel-body {
+    padding-inline: 3rem;
+}
+
+.btt {
+    width: 1110px;
+    background-color: #5CB85C;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.15em;
+    border-color: #5CB85C;
+}
+
+.txt__btt {
+    color: #f7f7f7;
+    font-size: 1.15rem;
+}
+
+.btt2 {
+    width: 1140px;
+    background-color: #5CB85C;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 0.15em;
+    border-color: #5CB85C;
+}

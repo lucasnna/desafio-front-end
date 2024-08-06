@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="http://style.fluig.com/css/fluig-style-guide.min.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="http://style.fluig.com/js/fluig-style-guide.min.js"></script>
+    <script src="/scripts/script.js"></script>
+    <title>Desafio Front-end</title>
+</head>
+<body>
+
+    <div class="fluig-style-guide">
+        <div class="container">
+
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <span class="panel__title">Dados do Fornecedor</span>
+                </div>
+            
+            <div class="panel-body">  
+
+                <form role="form" autocomplete="off" id="formFornecedor">
+
+                    <div class="row">
+                        <div class="col-xs-9">
+                            <label for="">Razão Social</label>
+                            <input type="text" class="form-control" id="razaoSocial" required>
+                        </div>
+
+                        <div class="col-xs-3">
+                            <label for="">CNPJ</label>
+                            <input type="text" class="form-control" id="CNPJ" maxlength="18" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-9">
+                            <label for="">Nome Fantasia</label>
+                            <input type="text" class="form-control" id="nomeFantasia" required>
+                        </div>
+
+                        <div class="col-xs-3">
+                            <label for="">Inscrição Estadual</label>
+                            <input type="text" class="form-control" id="inscricaoEstadual">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <label for="">CEP</label>
+                            <input type="text" class="form-control" id="CEP" required>
+                        </div>
+
+                        <div class="col-xs-6">
+                            <label for="">Inscrição Municipal</label>
+                            <input type="text" class="form-control" id="incricaoMunicipal">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-9">
+                            <label for="">Endereço</label>
+                            <input type="text" class="form-control" id="endereco" required>
+                        </div>
+
+                        <div class="col-xs-3">
+                            <label for="">Número</label>
+                            <input type="text" class="form-control" id="numero" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Complemento</label>
+                        <input type="text" class="form-control" id="complemento">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-5">
+                            <label for="">Bairro</label>
+                            <input type="text" class="form-control" id="bairro">
+                        </div>
+
+                        <div class="col-xs-4">
+                            <label for="">Municipio</label>
+                            <input type="text" class="form-control" id="municipio">
+                        </div>
+
+                        <div class="col-xs-3">
+                            <label for="">Estado</label>
+                            <input type="text" class="form-control" id="estado">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <label for="">Nome da Pessoa de Contato</label>
+                            <input type="text" class="form-control" id="nomeContato" required>
+                        </div>
+
+                        <div class="col-xs-3">
+                            <label for="">Telefone</label>
+                            <input type="text" class="form-control" id="telefoneContato" required>
+                        </div>
+
+                        <div class="col-xs-3">
+                            <label for="">E-mail</label>
+                            <input type="email" class="form-control" id="emailContato" required>
+                        </div>
+                    </div>    
+
+                </form>
+                
+            </div>
+            </div>
+
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <span class="panel__title">Dados do Produto</span>
+                    </div>
+                
+                <div class="panel-body panelProduto">
+                    <form role="form" autocomplete="off">
+
+                        <table class="table" id="tabelaProdutos">
+                            <thead>
+                                <tr>
+                                    <th>Produto</th>
+                                    <th>Unidade de Medida</th>
+                                    <th>Quantidade em Estoque</th>
+                                    <th>Valor Unitário</th>
+                                    <th>Valor Total</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="text" class="form-control" required></td>
+                                    <td><input type="text" class="form-control" required></td>
+                                    <td><input type="number" class="form-control quantidadeEstoque" required></td>
+                                    <td><input type="number" class="form-control valorUnitario" required></td>
+                                    <td><input type="number" class="form-control valorTotal" disabled></td>
+                                    <td><button type="button" class="btn btn-danger excluirProduto">Excluir</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        </form>
+                        
+                        <button type="button" class="btt" id="novoProduto"><span class="txt__btt">Adicionar Produto</span></button>
+                </div>
+                </div>   
+                
+
+                <div class="fluig-style-guide">
+
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <span class="panel__title">Anexos</span>
+                        </div>
+                
+                        <div class="panel-body">
+
+                    <table class="table" id="attachments-table">
+                        <thead>
+                            <tr>
+                                <th>Arquivo</th>
+                                <th>Ações</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="file" class="form-control-file"></td>
+                                <td class="col-xs-2">
+                                    <button type="button" class="btn btn-danger excluirAnexo">Excluir</button>
+                                    <button type="button" class="btn btn-success visualizarAnexo">Visualizar</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>    
+                    
+            
+                    <button type="button" class="btt" id="anexo"><span class="txt__btt">Incluir Anexo</span></button>
+                </div>
+                </div>
+
+                <button type="submit" class="btt2" id="salvarFornecedor"><span class="txt__btt">Salvar Fornecedor</span></button>
+
+                <div class="modal fade" id="loadingModal" tabindex="-1" aria-labelledby="loadingModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-body text-center">
+                                <p>Enviando...</p>
+                                <div class="spinner-border" role="status">
+                                    <span class="sr-only">Enviando...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
