@@ -27,7 +27,7 @@ Tabela de Anexos: obrigatório a inclusão de pelo menos 1 documento
 - Botão Salvar Fornecedor: ao clicar no botão, deverá ser aberto modal de loading de envio, e deverá ser formatado um JSON com os dados a serem enviados, conforme exemplo: jsonExemplo
 - OBS Sobre o JSON: o JSON de resultado pode ser baixado ou apenas exibido no console do browser.
 
-Neste projeto, para toda a estilização da página e CSS, foi utiliada a biblitoeca de estilização "fluig-style-guide", obtida no link: "http://style.fluig.com/css/fluig-style-guide.min.css", juntamente com seu asset para javascript: "http://style.fluig.com/js/fluig-style-guide.min.js". Os componentes utilizados a partir do "fluig-style-guide", foram aproveitados a partir da documentação disponivel do fluig, neste link: "https://style.fluig.com/components.html".
+Neste projeto, para toda a estilização da página, foi utilizada a biblitoeca de estilização "fluig-style-guide", obtida no link: "http://style.fluig.com/css/fluig-style-guide.min.css", juntamente com seu asset para javascript: "http://style.fluig.com/js/fluig-style-guide.min.js". Os componentes utilizados a partir do "fluig-style-guide", foram aproveitados a partir da documentação disponivel do fluig, neste link: "https://style.fluig.com/components.html".
 
 Ressalto de antemão que algumas questões se tornaram faltantas no sistema, como:
 - O consumer da API no CEP, para utilizar os endereços do serviço e apresenta-los no sistema.
